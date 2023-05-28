@@ -7,12 +7,28 @@ This data set contains booking information a city hotel and a resort hotel. It i
 
 hotel booking analysis projects are important for market research, revenue management, customer segmentation, operational efficiency, fraud detection, and competitive analysis. They provide valuable insights that enable hotels to make data-driven decisions, enhance guest experiences, and improve overall business performance.
 
-# Built with
-pandas
+# Using Libraries
+import pandas as pd
 
-numpy
+import numpy as np
 
-plotly
+import matplotlib.pyplot as plt
+
+%matplotlib inline
+
+import seaborn as sns
+
+from datetime import datetime
+
+import folium
+
+import plotly.express as px
+
+import plotly.offline as pyo
+
+import plotly.graph_objs as go
+
+import plotly.io as pio
 
 # Roadmap
 Part 1 - Data Cleaning and Feature Engineering
